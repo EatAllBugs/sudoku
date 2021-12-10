@@ -17,7 +17,7 @@ add_definitions(-DDEBUG) # 相当于代码中 #define DEBUG
 
 # add_subdirectory(test) # 添加test子目录
 
-SET(EXECUTABLE_OUTPUT_PATH "${PROJECT_SOURCE_DIR}/bin") # 可执行文件输出目录
+SET(EXECUTABLE_OUTPUT_PATH "${PROJECT_SOURCE_DIR}/build") # 可执行文件输出目录
 
 INCLUDE_DIRECTORIES("${PROJECT_SOURCE_DIR}/include") # 头文件包含目录
 
